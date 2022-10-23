@@ -1,0 +1,53 @@
+quick\_conformer\_search\_step package
+======================================
+
+Submodules
+----------
+
+quick\_conformer\_search\_step.metadata module
+----------------------------------------------
+
+.. automodule:: quick_conformer_search_step.metadata
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+quick\_conformer\_search\_step.quick\_conformer\_search module
+--------------------------------------------------------------
+
+.. automodule:: quick_conformer_search_step.quick_conformer_search
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+quick\_conformer\_search\_step.quick\_conformer\_search\_parameters module
+--------------------------------------------------------------------------
+
+.. automodule:: quick_conformer_search_step.quick_conformer_search_parameters
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+quick\_conformer\_search\_step.quick\_conformer\_search\_step module
+--------------------------------------------------------------------
+
+.. automodule:: quick_conformer_search_step.quick_conformer_search_step
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+quick\_conformer\_search\_step.tk\_quick\_conformer\_search module
+------------------------------------------------------------------
+
+.. automodule:: quick_conformer_search_step.tk_quick_conformer_search
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: quick_conformer_search_step
+   :members:
+   :undoc-members:
+   :show-inheritance:
