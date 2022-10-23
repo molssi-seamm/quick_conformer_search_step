@@ -63,7 +63,9 @@ class QuickConformerSearchStep(object):
         QuickConformerSearch
         """
 
-        return quick_conformer_search_step.QuickConformerSearch(flowchart=flowchart, **kwargs)
+        return quick_conformer_search_step.QuickConformerSearch(
+            flowchart=flowchart, **kwargs
+        )
 
     def create_tk_node(self, canvas=None, **kwargs):
         """Create and return the graphical Tk node object.
@@ -83,7 +85,9 @@ class QuickConformerSearchStep(object):
         TkQuickConformerSearch
         """
 
-        return quick_conformer_search_step.TkQuickConformerSearch(canvas=canvas, **kwargs)
+        return quick_conformer_search_step.TkQuickConformerSearch(
+            canvas=canvas, **kwargs
+        )
 
     def description(self):
         """Return a description of what this step does.

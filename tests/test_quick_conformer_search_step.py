@@ -10,4 +10,7 @@ import quick_conformer_search_step  # noqa: F401
 def test_construction():
     """Just create an object and test its type."""
     result = quick_conformer_search_step.QuickConformerSearch()
-    assert str(type(result)) == "<class 'quick_conformer_search_step.quick_conformer_search.QuickConformerSearch'>"
+    assert str(type(result)) == (
+        "<class 'quick_conformer_search_step.quick_conformer_search"
+        ".QuickConformerSearch'>"
+    )

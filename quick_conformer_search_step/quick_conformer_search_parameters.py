@@ -70,7 +70,8 @@ class QuickConformerSearchParameters(seamm.Parameters):
 
     See Also
     --------
-    QuickConformerSearch, TkQuickConformerSearch, QuickConformerSearch QuickConformerSearchParameters, Quick Conformer SearchStep
+    QuickConformerSearch, TkQuickConformerSearch, QuickConformerSearch
+    QuickConformerSearchParameters
     """
 
     parameters = {
@@ -116,5 +117,6 @@ class QuickConformerSearchParameters(seamm.Parameters):
         logger.debug("QuickConformerSearchParameters.__init__")
 
         super().__init__(
-            defaults={**QuickConformerSearchParameters.parameters, **defaults}, data=data
+            defaults={**QuickConformerSearchParameters.parameters, **defaults},
+            data=data,
         )

@@ -9,7 +9,9 @@ A SEAMM plug-in for a simple, quick conformer search
 # the quick_conformer_search_step package.
 
 from .quick_conformer_search import QuickConformerSearch  # noqa: F401, E501
-from .quick_conformer_search_parameters import QuickConformerSearchParameters  # noqa: F401, E501
+from .quick_conformer_search_parameters import (  # noqa: F401, E501
+    QuickConformerSearchParameters,
+)
 from .quick_conformer_search_step import QuickConformerSearchStep  # noqa: F401, E501
 from .tk_quick_conformer_search import TkQuickConformerSearch  # noqa: F401, E501
 

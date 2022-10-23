@@ -64,7 +64,7 @@ class QuickConformerSearch(seamm.Node):
         flowchart=None,
         title="Quick Conformer Search",
         extension=None,
-        logger=logger
+        logger=logger,
     ):
         """A step for Quick Conformer Search in a SEAMM flowchart.
 
@@ -208,7 +208,8 @@ class QuickConformerSearch(seamm.Node):
         """
         printer.normal(
             __(
-                "This is a placeholder for the results from the Quick Conformer Search step",
+                "This is a placeholder for the results from the Quick Conformer "
+                "Search step",
                 indent=4 * " ",
                 wrap=True,
                 dedent=False,
